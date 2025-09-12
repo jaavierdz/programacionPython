@@ -30,6 +30,7 @@ def pruebas():
     except ValueError as e:
         print("No se puede convertir a entero", e)
     number_as_text = "5"
+    print(1==1)
 
 if __name__ == "__main__":
     main()
