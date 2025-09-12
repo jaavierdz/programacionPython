@@ -3,3 +3,6 @@
 
 # El virtual env tambien me da pereza, asi que hay que instalar las dependencias (o modulos) a mano
 .venv/
+
+# Tambien quiero que ignore la carpeta de visual studio code
+.vscode/
