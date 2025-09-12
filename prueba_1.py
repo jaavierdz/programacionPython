@@ -14,4 +14,23 @@ def sig_handler(signal, frame):
 
 signal.signal(signal.SIGINT, sig_handler)
 
-print("hola clase")
+def main():
+    print("hola")
+
+def pruebas():
+    cadenaTexto = input("Dime tu nombre: ")
+    numeroEntero = 42
+    numeroDecimal = 3.14
+    print(cadenaTexto)
+    print(cadenaTexto, numeroEntero)
+    print("me llamo " + cadenaTexto)
+    print(4+3+2)
+    try:
+        print(numeroEntero + int(cadenaTexto))
+    except ValueError as e:
+        print("No se puede convertir a entero", e)
+    number_as_text = "5"
+
+if __name__ == "__main__":
+    main()
+    pruebas()
