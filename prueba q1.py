@@ -1,7 +1,8 @@
 # Prueba 1
 # Programación en Python
+# Description: Prueba inicial
 #
-# Author: Javier Rodriguez
+# Author: Javier Rodriguez <javier@javierdz.me>
 
 import signal
 from colorama import Fore
