@@ -3,7 +3,7 @@
 # Description: Prueba inicial
 #
 # Author: Javier Rodriguez <javier@javierdz.me>
-
+# Created: 2024-10-01
 import signal
 from colorama import Fore
 
