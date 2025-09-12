@@ -13,13 +13,16 @@ def sig_handler(signal, frame):
     exit(0)
 
 signal.signal(signal.SIGINT, sig_handler)
-
+# Costumbre
 def main():
-    print("hola")
-
+    a = None
+# lo que hacemos en clase
 def pruebas():
+    cadenaTexto = None
     cadenaTexto = input("Dime tu nombre: ")
+    numeroEntero = None
     numeroEntero = 42
+    numeroDecimal = None
     numeroDecimal = 3.14
     print(cadenaTexto)
     print(cadenaTexto, numeroEntero)
