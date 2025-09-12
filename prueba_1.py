@@ -33,6 +33,11 @@ def pruebas():
     except ValueError as e:
         print("No se puede convertir a entero", e)
     number_as_text = "5"
+    try:
+        print(1!=1)
+    except Exception as e:
+        print("Error inesperado", e)
+    
     print(1>1)
 
 if __name__ == "__main__":
