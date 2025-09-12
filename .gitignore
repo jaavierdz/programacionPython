@@ -1,0 +1,5 @@
+# El problema de los IDE de JetBrains es que generan una carpeta .idea y me da pereza que se suba
+.idea/
+
+# El virtual env tambien me da pereza, asi que hay que instalar las dependencias (o modulos) a mano
+.venv/
