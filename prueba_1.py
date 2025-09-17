@@ -39,9 +39,9 @@ def pruebas():
         print("Error inesperado", e)
     
     print(1>1)
-    numeroAString = "3"+str(4)
-    print(numeroAString)
-    print(type(numeroAString))
+    numeroAString = "3"+str(4) # concatenación de string
+    print(numeroAString) 
+    print(type(numeroAString)) # type() dice que tipo de dato es
 
 if __name__ == "__main__":
     pruebas()
