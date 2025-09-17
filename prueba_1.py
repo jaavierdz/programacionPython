@@ -42,6 +42,7 @@ def pruebas():
     numeroAString = "3"+str(4) # concatenación de string
     print(numeroAString) 
     print(type(numeroAString)) # type() dice que tipo de dato es
+    # Esta linea va a ser comentada con Crtl+K+C
 
 if __name__ == "__main__":
     pruebas()
