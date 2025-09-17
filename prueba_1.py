@@ -39,7 +39,9 @@ def pruebas():
         print("Error inesperado", e)
     
     print(1>1)
+    numeroAString = "3"+str(4)
+    print(numeroAString)
+    print(type(numeroAString))
 
 if __name__ == "__main__":
-    main()
     pruebas()
