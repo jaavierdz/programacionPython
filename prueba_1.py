@@ -43,6 +43,8 @@ def pruebas():
     print(numeroAString) 
     print(type(numeroAString)) # type() dice que tipo de dato es
     # Esta linea va a ser comentada con Crtl+K+C
+    n7 = (3-(2+4)) / (2*10)
+    print(n7)
 
 if __name__ == "__main__":
     pruebas()

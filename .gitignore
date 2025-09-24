@@ -6,3 +6,6 @@
 
 # Tambien quiero que ignore la carpeta de visual studio code
 .vscode/
+
+# Y la carpeta del aula virtual
+.aulaVirtual/
