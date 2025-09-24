@@ -3,7 +3,22 @@
 # 
 # Creado por Javier Rodriguez el 24/09/2025
 
+# ----------------------------------------------------------------
+# Cosas muy necesarias mias, ya por mania
 
+import signal
+from colorama import Fore
+
+# Handler para cuando le das Ctrl+C
+def sig_handler(signal, frame):
+    print(Fore.RED + "\n[!]" + Fore.RESET + " Saliendo...")
+    exit(0)
+signal.signal(signal.SIGINT, sig_handler)
+consent = input("Deseas ejecutar este programa? (y/n): ")
+if consent.lower() != 'y':
+    print("Programa no ejecutado.")
+    exit(0)
+# ----------------------------------------------------------------
 
 # 1.	Declara una variable entera con valor 10 y muÃ©strala por pantalla.
 
