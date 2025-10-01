@@ -23,12 +23,12 @@ signal.signal(signal.SIGINT, handler)
 #       """)
 
 
-print("aaaaaaaaaaaaaaa \rhola")
-n1=3
-n2=5
-print(f"la suma de {n1} + {n2} es igual a", float(n1+n2))
-n3 = 2.6843252
-print(f"el numero {n3} redondeado a 2 decimales es {n3:.2f}")
+# print("aaaaaaaaaaaaaaa \rhola")
+# n1=3
+# n2=5
+# print(f"la suma de {n1} + {n2} es igual a", float(n1+n2))
+# n3 = 2.6843252
+# print(f"el numero {n3} redondeado a 2 decimales es {n3:.2f}")
 
 
 # Entrada de valores por teclado
@@ -39,6 +39,10 @@ try:
 except  ValueError as e:
     print(f"el valor ingresado es: {a} y su tipo es {type(a).__name__} y no se puede sumar 3 por " + Fore.RED + f"{e}")
 
+contador=10
+while(contador>0): # Con el igual te llega hasta -1 y sin te llega hasta el 0
+    contador-=1
+    print(contador)
+print("exit")
 
-while(1):
-    print("hola")
+# TODO: practicar operadores
