@@ -9,3 +9,5 @@
 
 # Y la carpeta del aula virtual
 .aulaVirtual/
+
+.DS_STORE
