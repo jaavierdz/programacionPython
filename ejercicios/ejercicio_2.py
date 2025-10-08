@@ -45,16 +45,6 @@ def ejercicios():
     lineas"""
     print(f"hola como \nestas ")
 
-    # Condicionales
-    try:
-        r = requests.get("https://api.javierdz.dev/ping")
-        data = json.loads(r.text)
-        if r.status_code == 200:
-            print(data)
-        else:
-            print("error jajaja")
-    except Exception as e:
-        print(f"Algo ha pasado: {e}")
 
 if __name__ == "__main__":
     ejercicios()

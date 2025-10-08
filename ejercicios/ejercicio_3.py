@@ -1,3 +1,12 @@
+'''
+* ejercicio_3.py
+* Programación en Python
+* Description: If - Else exercises (and a try-except-finally clause, and some requests)
+* Created by Javier Rodriguez on 8-10-2025
+
+'''
+
+
 import os
 import requests
 import json
